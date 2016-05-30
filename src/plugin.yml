@@ -1,0 +1,7 @@
+name: PlayPvp
+version: 0.1
+description: PvP test Plugin
+authors: [DimoN]
+website: http://playcraft.com.ua/
+
+main: playpvp.PlayPvp
