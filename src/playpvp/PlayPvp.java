@@ -1,6 +1,7 @@
 
 package playpvp;
 
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 import org.bukkit.Bukkit;
@@ -17,7 +18,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 public class PlayPvp extends JavaPlugin implements Listener{
 
-    List<Player> glowingPlayers; //Список игроков, которые хотят видеть свичение
+    List<Player> glowingPlayers = new LinkedList<>(); //Список игроков, которые хотят видеть свичение
         
     @Override
     public void onEnable(){
